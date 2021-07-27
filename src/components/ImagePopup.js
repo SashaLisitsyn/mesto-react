@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function PopupImage (card) {
+export default function ImagePopup (card) {
 
   return(
     <div 

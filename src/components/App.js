@@ -8,7 +8,7 @@ import PopupEdit from "./PopupEdit";
 import PopupNewCard from "./PopupNewCard";
 import PopupAvatar from "./PopupAvatar";
 import PopupDelete from "./PopupDelete";
-import PopupImage from "./PopupImage";
+import ImagePopup from "./ImagePopup";
 
 export default function App() {
 
@@ -66,7 +66,7 @@ export default function App() {
           onClose={closeAllPopups}
         />
         <PopupDelete />
-        <PopupImage 
+        <ImagePopup 
           data={selectedCard}
           isOpen={isImagePopupOpen}
           onClose={closeAllPopups}
