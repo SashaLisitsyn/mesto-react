@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { PopupWithForm } from './PopupWithForm';
+import PopupWithForm from './PopupWithForm';
 
-const PopupEdit = props => {
+export default function PopupEdit (props) {
   
   return (
     <PopupWithForm 
@@ -43,5 +43,3 @@ const PopupEdit = props => {
     </PopupWithForm>
   )
 }
-
-export { PopupEdit };

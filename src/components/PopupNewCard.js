@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { PopupWithForm } from './PopupWithForm';
+import PopupWithForm from './PopupWithForm';
 
-const PopupNewCard = props => {
+export default function PopupNewCard (props) {
   
   return(
     <PopupWithForm 
@@ -41,5 +41,3 @@ const PopupNewCard = props => {
     </PopupWithForm>
   )
 }
-
-export { PopupNewCard };

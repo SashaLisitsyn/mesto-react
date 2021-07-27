@@ -1,4 +1,4 @@
-const Card = card => {
+export default function Card (card) {
 
   const handleClick = () => {
     card.onCardClick(card.data);
@@ -33,5 +33,3 @@ const Card = card => {
     </article>
   )
 }
-
-export { Card };

@@ -2,7 +2,7 @@ import React from 'react';
 
 import logo from '../images/Logo.svg';
 
-const Header = () => {
+export default function Header () {
 
   return (
     <header className="header">
@@ -14,5 +14,3 @@ const Header = () => {
     </header>
   )
 }
-
-export { Header };

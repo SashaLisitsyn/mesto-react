@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PopupImage = card => {
+export default function PopupImage (card) {
 
   return(
     <div 
@@ -24,5 +24,3 @@ const PopupImage = card => {
     </div>
   )
 }
-
-export { PopupImage };

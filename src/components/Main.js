@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 
 import { api } from '../utils/api';
 
-import { Card } from "./Card";
+import Card from "./Card";
 
-const Main = props => {
+export default function Main (props) {
 
   const [userName, setUserName] = useState();
   const [userDescription, setUserDescription] = useState();
@@ -80,5 +80,3 @@ const Main = props => {
     </main>
   )
 }
-
-export { Main };

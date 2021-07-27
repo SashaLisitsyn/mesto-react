@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { PopupWithForm } from './PopupWithForm';
+import PopupWithForm from './PopupWithForm';
 
-const PopupAvatar = props => {
+export default function PopupAvatar (props) {
 
   return(
     <PopupWithForm 
@@ -27,5 +27,3 @@ const PopupAvatar = props => {
     </PopupWithForm>
   )
 }
-
-export { PopupAvatar };

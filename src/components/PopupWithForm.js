@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PopupWithForm = props => {
+export default function PopupWithForm (props) {
 
   return(
     <div 
@@ -29,5 +29,3 @@ const PopupWithForm = props => {
     </div>
   )
 }
-
-export { PopupWithForm };

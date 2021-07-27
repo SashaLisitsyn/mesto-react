@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { PopupWithForm } from './PopupWithForm';
+import PopupWithForm from './PopupWithForm';
 
-const PopupDelete = () => {
+export default function PopupDelete () {
   
   return (
     <PopupWithForm 
@@ -12,5 +12,3 @@ const PopupDelete = () => {
     />
   )
 }
-
-export { PopupDelete };

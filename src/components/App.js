@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 
-import { Header } from "./Header";
-import { Main } from "./Main";
-import { Footer } from "./Footer";
+import Header from "./Header";
+import Main from "./Main";
+import Footer from "./Footer";
 
-import { PopupEdit } from "./PopupEdit";
-import { PopupNewCard } from "./PopupNewCard";
-import { PopupAvatar } from "./PopupAvatar";
-import { PopupDelete } from "./PopupDelete";
-import { PopupImage } from "./PopupImage";
+import PopupEdit from "./PopupEdit";
+import PopupNewCard from "./PopupNewCard";
+import PopupAvatar from "./PopupAvatar";
+import PopupDelete from "./PopupDelete";
+import PopupImage from "./PopupImage";
 
-const App = () => {
+export default function App() {
 
   const [isEditProfilePopupOpen, setIsEditProfilePopupOpen] = useState(false);
   const [isAddPlacePopupOpen, setIsAddPlacePopupOpen] = useState(false);
@@ -75,5 +75,3 @@ const App = () => {
     </div>
   )
 }
-
-export { App };
