@@ -14,7 +14,6 @@ export default function Main(props) {
           <div className="profile__avatar">
             <img
               onClick={props.onEditAvatar}
-              style={{ backgroundImage: `url(${currentUser.avatar})` }}
               src={currentUser.avatar}
               alt="Аватарка"
               className="profile__avatar-img"

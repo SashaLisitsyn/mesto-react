@@ -14,7 +14,6 @@ export default function ImagePopup(card) {
         ></button>
         <img
           src={card.data.link}
-          style={{ backgroundImage: `url(${card.data.link})` }}
           alt={card.data.name}
           className="popup__image"
         />

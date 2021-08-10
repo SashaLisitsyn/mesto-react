@@ -20,7 +20,7 @@ export default function App() {
   const [isImagePopupOpen, setIsImagePopupOpen] = useState(false);
   const [selectedCard, setSelectedCard] = useState({});
 
-  const [currentUser, setCurrentUser] = useState([]);
+  const [currentUser, setCurrentUser] = useState({});
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
@@ -101,7 +101,7 @@ export default function App() {
     api
       .deleteCard(card._id)
       .then(() => {
-        setCards((state) => state.filter((c) => c._id !== card.id));
+        setCards((state) => state.filter((c) => c._id !== card._id));
       })
       .catch((err) => {
         console.log(`Attention! ${err}`);

@@ -30,7 +30,7 @@ export default function Card(props) {
   }
 
   return (
-    <article className="element" key={props.id}>
+    <article className="element">
       <button
         className={cardDeleteButtonClassName}
         onClick={handleDeleteClick}
@@ -38,7 +38,6 @@ export default function Card(props) {
       ></button>
       <img
         src={props.data.link}
-        style={{ backgroundImage: `url(${props.data.link})` }}
         alt={props.data.name}
         className="element__photo"
         onClick={handleClick}
